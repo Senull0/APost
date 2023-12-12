@@ -85,14 +85,14 @@ npm run dev
 ## How it works
 <div align = "center">
 
-  ![How it works](How_animated.svg)
+  ![How it works](images/How_itworks.svg)
 </div>
 
 ## App architecture
-![App architecture](New_diagram_animated.svg)
+![App architecture](images/App_architecture.svg)
 
 ## DB structure
-![DB structure](parcel%20delivery.svg)
+![DB structure](images/DB_st.svg)
 
 
 ## Contributing
