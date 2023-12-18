@@ -1,0 +1,21 @@
+.f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5vh;
+    background: #ffffff;
+    
+  }
+  
+  .getbackLink {
+    color: #163760;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: clamp(12px, 5vw, 18px);
+    text-decoration: none;
+    transition: text-decoration 0.5s;
+  }
+  
+  .getbackLink:hover {
+    text-decoration: underline;
+  }

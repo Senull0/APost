@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap');
+
+:root {
+  --border_valid: #3a8bed;
+  --border_focus: #82baff;
+}
+
+
+.parent_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+
+.form {
+    background-color:#ffffff;
+    height: 85vh;
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+
+.input_boxp {
+  flex: 1;
+}
+
+.input_box {
+  width: 95%;
+  height: 10%;
+  margin-bottom: 3%;
+}
+
+.input_box:focus {
+  outline: 1px solid var(--border_focus);
+}
+
+.input_box:valid {
+  border: 1px solid var(--border_valid);
+  box-shadow: 0 0 5px 0.1px #25599933;
+}
+
+.input_box:valid:focus {
+  outline: 1px solid var(--border_valid);
+}
+
+
+.create_button {
+    background-color: #163760;
+    color: white; 
+    border: 0.5px solid transparent;
+    transition: border-color 0.5s; 
+    padding: 2.5%; 
+    margin: 3%;
+    border-radius: 15px; 
+    cursor: pointer; 
+    width: 50%;
+    height: auto;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+}
+
+.create_button:hover {
+  background-color: #ffffff;
+  color: #163760;
+  border-color: #163760;
+  box-shadow: 1px 1px 5px 1.5px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 800px) {
+  .create_button {
+    width: 50%;
+    height: auto;
+    margin: 3%;
+  }
+
+  .account_already {
+    font-size: 0.8rem;
+  }
+  .labels {
+    font-size: 0.8rem;
+  }
+}
+
+
+.account_already {
+  color: #163760;
+  text-decoration: none;
+  transition: text-decoration 0.5s;
+  margin-bottom: 5%;
+}
+
+.account_already:hover {
+  text-decoration: underline;
+}
+
+

@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Postnord Lähiboksi Prisma Limingantulli",
+      "address": "Nuottasaarentie 1",
+      "zipcode": "90400",
+      "city": "OULU",
+      "totalCabinets": 20
+    },
+    {
+      "name": "Postnord Automaatti K-market Värttö",
+      "address": "Kurkelantie 2B",
+      "zipcode": "90230",
+      "city": "OULU",
+      "totalCabinets": 20
+    },
+    {
+      "name": "Postnord K-market Värttö",
+      "address": "Kurkelantie 2",
+      "zipcode": "90230",
+      "city": "OULU",
+      "totalCabinets": 20
+    },
+    {
+      "name": "Postnord Lähiboksi Kitimenpolku 21",
+      "address": "Kitimenpolku 21",
+      "zipcode": "90500",
+      "city": "OULU",
+      "totalCabinets": 20
+    },
+    {
+      "name": "Postnord Automaatti K-market Masurkka",
+      "address": "Käpyläntie 8",
+      "zipcode": "00600",
+      "city": "HELSINKI",
+      "totalCabinets": 20
+    },
+    {
+        "name": "Postnord R-kioski Käpylä",
+        "address": "Pohjolankatu 38",
+        "zipcode": "00610",
+        "city": "HELSINKI",
+        "totalCabinets": 20
+    },
+    {
+        "name": "Postnord Automaatti Alepa Koskela",
+        "address": "Antti Korpin Tie 3",
+        "zipcode": "00600",
+        "city": "HELSINKI",
+        "totalCabinets": 20
+    },
+    {
+        "name": "Postnord Automaatti K-supermarket Mustapekka",
+        "address": "Mäkitorpantie 1",
+        "zipcode": "00620",
+        "city": "HELSINKI",
+        "totalCabinets": 20
+    }
+  
+] 

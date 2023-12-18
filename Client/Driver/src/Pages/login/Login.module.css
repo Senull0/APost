@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap');
+
+:root {
+  --border_valid: #3a8bed;
+  --border_focus: #82baff;
+}
+
+
+.parent_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+
+.form {
+    background-color:#ffffff;
+    height: 64vh;
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+
+
+
+.login_input {
+  width: 95%;
+  height: 20%;
+  margin-bottom: 5%;
+}
+
+.login_input:focus {
+  outline: 1px solid var(--border_focus);
+}
+
+.login_input:valid {
+  border: 1px solid var(--border_valid);
+  box-shadow: 0 0 5px 0.1px #25599992;
+}
+
+.login_input:valid:focus {
+  outline: 1px solid var(--border_valid);
+}
+
+
+.login_button {
+    background-color: #163760;
+    color: white; 
+    border: 0.5px solid transparent;
+    transition: border-color 0.5s; 
+    padding: 2.5%; 
+    margin: 3.5%;
+    border-radius: 15px; 
+    cursor: pointer; 
+    width: 50%;
+    height: auto;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+  
+}
+
+.login_button:hover {
+  background-color: #ffffff;
+  color: #163760;
+  border-color: #163760;
+  box-shadow: 1px 1px 10px 2.5px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 800px) {
+  .login_button {
+    width: 50%;
+    height: auto;
+    margin: 3%;
+  }
+  .create_account {
+    font-size: 0.8rem;
+  }
+  .restore_password {
+    font-size: 0.8rem;
+  }
+  .label {
+    font-size: 0.8rem;
+  }
+}
+
+
+.restore_password {
+  color: #163760;
+  text-decoration: none;
+  transition: text-decoration 0.5s;
+}
+
+.restore_password:hover {
+  text-decoration: underline;
+}
+
+
+.create_account{
+  color: #163760;
+  text-decoration: none;
+  transition: text-decoration 0.5s;
+}
+
+.create_account:hover {
+  text-decoration: underline;
+}
+
+

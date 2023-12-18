@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@300;400;500;600;700;800;900;1000&family=Raleway:wght@600;700;800;900&display=swap');
+
+
+.myparcels_dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.myparcels_dropdown_ch {
+  position: absolute;
+  padding-left: 20%;
+}
+
+
+.testnav {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-bottom: 8vh;
+}
+
+
+.myparcels_link {
+  color: #163760;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  transition: text-decoration 0.5s;
+}
+
+.myparcels_link:hover {
+  text-decoration: underline;
+}
+
+.myparcels_link:active {
+  color: #2c6ab7;
+}
+
+.divP {
+  display: flex;
+  justify-content: center;
+}
+
+.divpTable {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.pTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2.5px solid #b5b5b5;
+  margin-bottom: 5vh;
+  box-shadow: 1px 1px 10px 2.5px rgba(0, 0, 0, 0.2);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+.pth {
+  border: 1px solid #a1a1a1;
+  background: #163760;
+  color: #ffffff;
+  padding: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+
+}
+
+.tableRow {
+  background-color: #ffffff;
+  text-align: center;
+
+}
+
+.tableC {
+  padding: 8px;
+  border: 1px solid #d5d5d5;
+}
+
+
+.tableRow:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.tableRow:active {
+  background-color: #f1f1f1;
+}
+
+.window_alert_div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.88); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+
+
+.window_alert_chdiv {
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.934);
+  padding: 25px;
+  max-width: 200px;
+  border: 1px solid #163760;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.window_alert_parcelid {
+  background-color: #163760;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 16px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+
+.alert_button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 5px;
+  border: 1px solid #163760;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  background-color: #163760ed ;
+}
+
+.alert_button:hover {
+  cursor: pointer;
+  background-color: #112b4b;
+}

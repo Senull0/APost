@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@300;400;500;600;700;800;900;1000&family=Raleway:wght@600;700;800;900&display=swap');
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 98vh;
+}
+
+
+.parent_mainText {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainText {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 1000;
+	font-size: clamp(36px, 8vw, 60px);
+	letter-spacing: 0.05em;
+}
+
+.mainText p {
+	margin: 0;
+}
+
+.trackWord {
+	color: #163760;
+}
+
+.andWord {
+	color: #000000;
+}
+
+.traceWord {
+	color: #163760;
+}
+
+.searchBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3vh;
+
+}
+
+.searchBox button {
+	background-color: #163760;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+	border: 0.5px solid transparent;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: border-color 0.5s;
+	padding: 10px;
+
+}
+
+.searchBox button:hover {
+	background-color: #ffffff;
+	color: #163760;
+	border-color: #163760;
+	box-shadow: 1px 1px 10px 2.5px rgba(0, 0, 0, 0.2);
+}
+
+.searchBox button:disabled {
+	background-color: gray;
+	color: #000000;
+}
+
+
+
+.searchinput {
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 10px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 500;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.searchinput:valid:focus {
+	outline: 1px solid #366eb2;
+}
+
+
+
+.buttons_container {
+	display: flex;
+	justify-content: center;
+	gap: 3%;
+	padding-bottom: 3vh;
+}
+
+.bottom_button {
+	background-color: #fafafa;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+	color: #163760;
+	border: none;
+	border-radius: 5px;
+	padding: 1.05vh;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	transition: all 0.3s ease;
+}
+
+.bottom_button:hover {
+	box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
+	color: #255ba2;
+}
+
+.status {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+@media (max-width: 800px) {
+	.buttons_container {
+		gap: 5%;
+	}
+
+	.bottom_button {
+		padding-inline: 1.2vh;
+	}
+}

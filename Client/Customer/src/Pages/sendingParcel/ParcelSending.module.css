@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@300;400;500;600;700;800;900;1000&family=Raleway:wght@600;700;800;900&display=swap');
+
+:root {
+  --border_valid: #8f8f8f;
+  --border_focus: #82baff;
+}
+
+
+.parent_container {
+  display: flex;
+  flex-direction: column;
+  /*height: 80vh;*/
+  overflow: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5vh;
+  background: #ffffff;
+  
+}
+
+
+.getbackLink {
+  color: #163760;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: clamp(12px, 5vw, 18px);
+  text-decoration: none;
+  transition: text-decoration 0.5s;
+}
+
+
+.getbackLink:hover {
+  text-decoration: underline;
+}
+
+
+.pl {
+  color: #163760;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: clamp(12px, 5vw, 22px);
+}
+
+
+
+.input_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  height: 10vh;
+}
+
+
+.input_child_container {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 2vh;
+}
+
+
+.select_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+  height: 15vh;
+}
+
+.select_child_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+
+.inp_label {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: clamp(12px, 2vw, 15px);
+}
+
+
+.input_box {
+  border-radius: 5px;
+  background-color: hsla(0,0%,84.5%,25%);
+  width: 88%;
+}
+
+
+.input_box:focus {
+  outline: 1px solid var(--border_focus);
+  box-shadow: 1px 1px 5px 1.5px rgba(0, 0, 0, 0.2);
+}
+
+.input_box:valid {
+  border: 1px solid var(--border_valid);
+}
+
+.input_box[disabled] {
+  border: 1px solid var(--border_valid);
+  cursor: not-allowed;
+}
+
+
+.input_box:hover {
+  background-color: hsla(0,0%,84.5%,45%);
+}
+
+
+.select_box:hover {
+  cursor: pointer;
+  background-color: hsla(0,0%,84.5%,35%);
+}
+
+
+
+
+.select_box {
+  border: none;
+  border-radius: 5px;
+  background-color: hsla(0,0%,84.5%,15%);
+  width: 25vh;
+  padding: 8px;
+}
+
+
+
+
+.buttn {
+  margin-top: 2vh;
+  padding: 5px 3vw;
+  background-color: #163760;
+  color: white; 
+  border: 0.5px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.5s; 
+  border-radius: 5px;  
+  font-family: 'Nunito', sans-serif;
+  font-weight: 1000;
+}
+
+.buttn:hover {
+  background-color: #ffffff;
+  color: #163760;
+  border-color: #163760;
+  box-shadow: 1px 1px 10px 2.5px rgba(0, 0, 0, 0.2);
+}
+.buttn:active {
+  cursor: wait;
+}

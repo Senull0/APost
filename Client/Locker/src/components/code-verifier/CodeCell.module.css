@@ -1,0 +1,46 @@
+.CodeCell {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  padding-bottom: 3vh;
+
+}
+
+.btn {
+  background-color: #1a4375eb;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  border: 0.5px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: border-color 0.5s;
+  padding: 20px;
+  width: 100px;
+  height: 84px;
+}
+
+.buttons:hover {
+  outline: none;
+  background-color: #1a4375;
+}
+.buttons:active 
+{
+  outline: none;
+  background-color: #163760;
+}
+
+.bottom_button:hover {
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
+  color: #255ba2;
+
+}

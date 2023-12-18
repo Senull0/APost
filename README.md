@@ -54,8 +54,8 @@ git clone https://github.com/OAMK-VPN/APost.git
 ```
 2. Install dependencies
 ```sh
-windows: .\install.ps1
-linux|macos: pwsh ./install.ps1
+windows: .\ins.ps1
+linux|macos: pwsh ./ins.ps1
 ```
 3. Update Endpoints in .env (if needed)
 ```sh

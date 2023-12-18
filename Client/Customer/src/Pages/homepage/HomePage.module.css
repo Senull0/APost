@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@300;400;500;600;700;800;900;1000&family=Raleway:wght@600;700;800;900&display=swap');
+
+.parent_container {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5vh;
+  background: #ffffff;
+}
+
+.loginLink {
+  color: #163760;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: clamp(12px, 5vw, 20px);
+  text-decoration: none;
+  transition: text-decoration 0.5s;
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+}
+
+.parent_mainText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainText {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 1000;
+  font-size: clamp(36px, 8vw, 52px);
+  letter-spacing: 0.05em;
+
+}
+
+.mainText p {
+  margin: 0;
+  opacity: 0;
+  animation: fadeInT 0.5s forwards;
+}
+
+.mainText p:nth-child(1) { animation-delay: 0.5s; }
+.mainText p:nth-child(2) { animation-delay: 1s; }
+.mainText p:nth-child(3) { animation-delay: 1.5s; }
+
+
+.trackWord {
+  color: #163760;
+}
+
+.andWord {
+  color: #000000;
+}
+
+.traceWord {
+  color: #163760;
+}
+
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.searchBox button {
+  background-color: #163760;
+  color: white; 
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  border: 0.5px solid transparent;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: border-color 0.5s;
+  padding: 3.5%;
+  width: auto;
+}
+
+.searchBox button:hover {
+  background-color: #ffffff;
+  color: #163760;
+  border-color: #163760;
+  box-shadow: 1px 1px 10px 2.5px rgba(0, 0, 0, 0.2);
+  cursor: crosshair;
+}
+
+.searchinput {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.searchinput:hover {
+  box-shadow: 1px 1px 10px 2.5px rgba(0, 0, 0, 0.2);
+  cursor: crosshair;
+}
+
+
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  padding-bottom: 3vh;
+
+}
+
+.bottom_button {
+  background-color:#FAFAFA;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  color: #163760;
+  border: none;
+  border-radius: 5px;
+  padding: 1.05vh;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.bottom_button:hover {
+  background-color:rgb(226, 223, 223);
+  color:#255ba2;
+    
+}
+
+@keyframes fadeInT {
+  to {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .buttons_container {
+    gap: 5%;
+  }
+
+  .bottom_button {
+    padding-inline: 1.2vh;
+  }
+
+}
+
+
+
